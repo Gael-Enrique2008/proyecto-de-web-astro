@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import App from "../react-app/App.jsx"
+---
+
+<BaseLayout title="Quest Merchant">
+  <App client:only="react" />
+</BaseLayout>
